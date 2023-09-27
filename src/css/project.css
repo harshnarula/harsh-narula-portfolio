@@ -193,12 +193,12 @@
         font-size: 7px;
         margin-top: 7px;
         width: 186px;
-        height: 30px;
+        height: 38px;
         margin-left: 6px;
     }
     .project-tech{
       margin-left: 8px;
-      margin-top: 7px;
+      margin-top: 3px;
     }
     .project-domain{
       font-size: 8px;
@@ -207,8 +207,9 @@
     }
 
     .project-p{
-      width: 26px;
-      font-size: 7px;
+      width: 23px;
+      font-size: 6px;
+      margin-right: 2px;
     }
       
   }
