@@ -1,15 +1,13 @@
 .appearance{
     display: flex;
     flex-direction: row;
-    margin-left: 41px;
-    width: 145px;
   }
   .my-logo{
-    height: 50px;
-    width: 50px;
-    padding-top: 10px;
+    height: auto;
+    max-width: 100%;
+/*     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 10px; */
   }
   .navbar{
     width: auto;
@@ -75,7 +73,7 @@
     justify-content: center;
     align-items: center;
     /* padding: 10px; */
-    margin-left: auto;
+/*     margin-left: auto; */
     color: #c4b7c9;
     font-weight: bold;
 }
@@ -86,7 +84,7 @@
 
   @media (min-width: 369px) and (max-width: 768px){
     .appearance{
-        margin-left: 20px;
+/*         margin-left: 20px; */
         width: 100px;
     }
     .my-logo{
@@ -94,6 +92,9 @@
       }
     .navbar{
         height: 50px;
+    }
+    .title{
+        font-size: 13px;
     }
     .home{
         margin-right: 10px;
@@ -124,6 +125,9 @@
       }
     .navbar{
         height: 50px;
+    }
+    .title{
+        font-size: 13px;
     }
     .home{
         margin-right: 10px;
