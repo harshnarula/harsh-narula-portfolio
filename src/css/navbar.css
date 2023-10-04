@@ -1,0 +1,148 @@
+.appearance{
+    display: flex;
+    flex-direction: row;
+    margin-left: 41px;
+    width: 145px;
+  }
+  .my-logo{
+      height: auto; /* This maintains the aspect ratio */
+      max-width: 100%; /* Makes the logo responsive */
+      padding: 2x;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+  }
+  .navbar{
+    width: auto;
+    height: 70px;
+    background-color: #960c8257;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .route-links{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .home{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #c4b7c9;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  
+  .home:hover{
+    color: #996fa9;
+  }
+  
+  .project{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #c4b7c9;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  
+  .project:hover{
+    color: #996fa9;
+  }
+  
+  
+  .social{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #c4b7c9;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  
+  .social:hover{
+    color: #996fa9;
+  }
+  
+  .contact-me{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #c4b7c9;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  .title {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    margin-left: auto;
+    color: #c4b7c9;
+    font-weight: bold;
+}
+  
+  .contact-me:hover{
+    color: #996fa9;
+  }
+
+  @media (min-width: 369px) and (max-width: 768px){
+    .appearance{
+        margin-left: 20px;
+        width: 100px;
+        
+    }
+    .my-logo{
+        width: 40px;
+        margin-left: 20px;
+      }
+    .navbar{
+        height: 50px;
+    }
+    .home{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .project{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .social{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .contact-me{
+        margin-right: 0px;
+        font-size: 12px;
+
+    }
+  }
+
+  @media (min-width: 0px) and (max-width: 368px){
+    .appearance{
+        margin-left: 20px;
+        width: 100px;
+    }
+    .my-logo{
+        width: 40px;
+      }
+    .navbar{
+        height: 50px;
+    }
+    .home{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .project{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .social{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .contact-me{
+        margin-right: 0px;
+        font-size: 12px;
+
+    }
+  }

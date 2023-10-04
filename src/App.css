@@ -1,0 +1,244 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+
+
+/* @media (min-width: 360px){
+  body{
+    margin: 0;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url(wallpapersden.com_k-beautiful-landscape-digital-art_480x800.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .navbar{
+    width: auto;
+  }
+  .appearance {
+    width: 100px;
+}
+.title{
+  font-size: 15px;
+}
+
+.home {
+  margin-right: 5px;
+  font-size: 12px;
+}
+.project {
+  margin-right: 5px;
+  font-size: 12px;
+}
+.social {
+  margin-right: 5px;
+  font-size: 12px;
+}
+.contact-me {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.link-box {
+    background-color: #960c8257;
+    display: flex;
+    flex-direction: row;
+    height: 76px;
+    width: 300px;
+    border-radius: 5px solid black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+    transition: transform 0.3s;
+  }
+  .git-box {
+    background-color: #960c8257;
+    display: flex;
+    flex-direction: row;
+    height: 76px;
+    width: 300px;
+    border-radius: 5px solid black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+    transition: transform 0.3s;
+  }
+  .tweet-box {
+    background-color: #960c8257;
+    display: flex;
+    flex-direction: row;
+    height: 76px;
+    width: 300px;
+    border-radius: 5px solid black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+    transition: transform 0.3s;
+  }
+  .gmail-box {
+    background-color: #960c8257;
+    display: flex;
+    flex-direction: row;
+    height: 76px;
+    width: 300px;
+    border-radius: 5px solid black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+    transition: transform 0.3s;
+  }
+
+  .insta-box {
+    background-color: #960c8257;
+    display: flex;
+    flex-direction: row;
+    height: 76px;
+    width: 300px;
+    border-radius: 5px solid black;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+    transition: transform 0.3s;
+  }
+
+  .link-box-01 {
+    background-color: #960c8257;
+    height: 76px;
+    width: 76px;
+    border-radius: 13px;
+}
+
+  .git-box-01 {
+    background-color: #960c8257;
+    height: 76px;
+    width: 76px;
+    border-radius: 13px;
+}
+
+.tweet-box-01 {
+  background-color: #960c8257;
+  height: 76px;
+  width: 76px;
+  border-radius: 13px;
+}
+
+.gmail-box-01 {
+  background-color: #960c8257;
+  height: 76px;
+  width: 76px;
+  border-radius: 13px;
+}
+
+.insta-box-01 {
+  background-color: #960c8257;
+  height: 76px;
+  width: 76px;
+  border-radius: 13px;
+}
+
+.link-box-02 {
+  height: 76px;
+  width: 300px;
+}
+.git-box-02 {
+  height: 76px;
+  width: 300px;
+
+}
+.tweet-box-02 {
+  height: 76px;
+  width: 300px;
+}
+.gmail-box-02 {
+  height: 76px;
+  width: 300px;
+}
+.insta-box-02 {
+  height: 76px;
+  width: 300px;
+
+}
+.Social {
+  height: 543px;
+}
+.linked-in{
+  font-size: 18px;
+}
+.github{
+  font-size: 18px;
+}
+.twitter{
+  font-size: 18px;
+}
+.gmail{
+  font-size: 18px;
+}
+.instagram{
+  font-size: 18px;
+}
+.contact-header{
+  font-size: 18px;
+}
+.contact-para{
+  font-size: 15px;
+}
+.btn{
+  width: 77px;
+  height: 25px;
+}
+.name{
+  width: 194px;
+    height: 31px;
+}
+.email{
+  width: 194px;
+    height: 31px;
+}
+.message{
+  width: 194px;
+    height: 81px;
+}
+::placeholder{
+  color: #5a0b7e;
+  font-size: 12px;
+}
+} */

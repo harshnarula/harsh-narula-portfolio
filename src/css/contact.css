@@ -1,0 +1,150 @@
+.take-in{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #960c8257;
+  }
+  .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contact-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #f0e5f5;
+    background-color: #5a0b7e;
+    border-color: #5a0b7e;
+    transition: background-color color 0.3s;
+  }
+  
+  .btn:hover{
+    background-color: #420a5c;
+    color: #e2d6e7;
+  }
+  
+  .contact-inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+  
+  .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-indent: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 2px solid #e9c9f5;
+    width: 240px;
+    height: 45px;
+    font-size: 16px;
+    background-color: #ffffff00;
+  }
+  
+  ::placeholder{
+    color: #5a0b7e;
+    font-size: 17px;
+  }
+  
+  .email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-indent: 5px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 2px solid #e9c9f5;
+    width: 240px;
+    height: 45px;
+    font-size: 16px;
+    background-color: #ffffff00;
+  }
+  
+  .message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-indent: 5px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 2px solid #e9c9f5;
+    width: 240px;
+    height: 108px;
+    padding-top: 10px;
+    font-size: 16px;
+    background-color: #ffffff00;
+  }
+  .contact-header{
+    font-size: 35px;
+    margin: 0px;
+    padding-top: 10px;
+    color: #ffffffd6;
+    
+  }
+  .contact-para{
+    font-size: 25px;
+    margin: 13px;
+    color: #ffffffd6;
+    
+  }
+
+  @media (min-width: 369px) and (max-width: 768px){
+    .btn{
+        width: 80px;
+        height: 30px;
+    }
+    .contact-header{
+        font-size: 25px;
+    }
+    .contact-para{
+        font-size: 20px;
+    }
+    .name{
+        width: 180px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .email{
+        width: 180px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .message{
+        width: 180px;
+        height: 70px;
+        font-size: 13px;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 368px){
+
+  .contact-header{
+      font-size: 20px;
+  }
+  .contact-para{
+      font-size: 15px;
+  }
+  
+}
