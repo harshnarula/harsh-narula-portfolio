@@ -1,3 +1,4 @@
+
 import Main from './Main'
 import Tech from './Tech'
 import Language from './Language';
@@ -21,4 +22,4 @@ export default function Home({width, setWidth}){
             /> 
         </div>
     )
-}
+    }
