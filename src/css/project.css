@@ -234,4 +234,12 @@
       font-size: 7px;
     }
       
+    .project-source{
+      margin-top: 7px;
+      display: flex;
+      margin-right: 17px;
+    }
+    .source{
+      font-size: 7px;
+    }
   }

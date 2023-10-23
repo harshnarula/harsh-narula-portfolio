@@ -41,7 +41,7 @@ export default function Contact({contact , setContact}){
         console.log(contact);
       
         try {
-          const response = await axios.post('/#contact/', {
+          const response = await axios.post('https://harshnarula.pythonanywhere.com/contact/', {
             name: contact.name,
             email: contact.email,
             message: contact.message,

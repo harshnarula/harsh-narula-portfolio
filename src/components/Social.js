@@ -1,5 +1,5 @@
 import '../css/social.css'
-// import { useEffect } from 'react';
+import { useEffect } from 'react';
 
 export default function Social({
     social, setSocial, setWidth, width
@@ -60,25 +60,16 @@ export default function Social({
         }));
     };
 
-    // useEffect(() => {
-	// 	window.addEventListener("resize", () => {
-	// 		if (
-	// 			(width > 768 && window.innerWidth <= 768) ||
-	// 			(width <= 768 && window.innerWidth > 768)
-	// 		)
-	// 			setWidth(window.innerWidth);
-                
-	// 	});
-	// 	return () => {
-	// 		window.removeEventListener("resize", () => {
-	// 			if (
-	// 				(width > 768 && window.innerWidth <= 768) ||
-	// 				(width <= 768 && window.innerWidth > 768)
-	// 			)
-	// 				setWidth(window.innerWidth);
-	// 		});
-	// 	};
-	// }, [width]);
+    useEffect(() => {
+		setSocial(prevState => ({
+            ...prevState,
+            instagram: false,
+            linkedIn: false,
+            github: false,
+            twitter: false,
+            gmail: false
+        }));
+	}, []);
 
 
     return(

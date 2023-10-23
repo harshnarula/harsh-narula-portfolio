@@ -29,7 +29,7 @@ export default function Project({  projects, setProjects, width, setWidth }) {
 
   useEffect(() => {
     updateProjectDetails();
-  });
+  }, []);
 
   // useEffect(() => {
 	// 	window.addEventListener("resize", () => {
