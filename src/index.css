@@ -3,10 +3,11 @@ body {
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(wallpapersden.com_k-beautiful-landscape-digital-art_1600x900.jpg);
+  background-image: url(E:\Portfolio\my-react-app\public\images\minimalist-purple-sky-and-mountain-ex4suuw5xd4funov.webp);
   position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .body::after {
