@@ -1,7 +1,10 @@
 import '../css/language.css'
 // import { useEffect } from 'react'
+import {lang} from '../static/data'
 
 export default function Language({width, setWidth}) {
+   
+    // const containerClass = lang.length % 2 !== 0 ? 'prototype01-section02' : 'prototype01-section01';
 
     // useEffect(() => {
 	// 	window.addEventListener("resize", () => {
@@ -34,7 +37,7 @@ export default function Language({width, setWidth}) {
             
         </div>
 
-        <div className = 'prototype01-section'>
+        {/* <div className = 'prototype01-section'>
             <div className = 'prototype01-section01'>
                 <div className = 'prototype01'>
                         <img  className = 'lang-image' src = 'https://img.icons8.com/color/100/000000/html-5.png' alt ='html-icon'></img>
@@ -59,7 +62,21 @@ export default function Language({width, setWidth}) {
                         <p className = 'lang-para'>JAVA</p>
                 </div>
             </div>
+        </div> */}
+        <div className = {lang.length % 2 === 0 ? 'prototype01-section02':'prototype01-section01'} >
+        {lang.map((lang) => {
+                                return (
+                                    
+                                        <div className = 'prototype01' id = {lang.id}>
+                                                <img  className = 'lang-image' src = {lang.icon} alt = {lang.title}/>
+                                                <p className = 'lang-para'>{lang.title}</p>
+                                        </div>
+                                    
+                                );
+                            })}
         </div>
+
+        
         
     </section>
         

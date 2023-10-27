@@ -14,7 +14,7 @@ export default function Project({  projects, setProjects, width, setWidth }) {
         source: 'https://github.com/harshnarula/ASHK'
       },
       {
-        img: 'https://img.icons8.com/color/200/000000/react-native.png',
+        img: '/images/logo(2).png',
         name: 'Video Chat Applicaton',
         description: 'This is an application where we can coumminicate with other persons virtually through a video call and also can cchat with them',
         domain: 'Web Development',

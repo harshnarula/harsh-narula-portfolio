@@ -6,7 +6,7 @@ export default function Navbar(){
     return(
         <nav className = 'navbar'>
             <div className = 'appearance'>
-                <img src= '/images/mylogo.png' alt="myportfolio" className = 'my-logo' />
+                <img src= '/images/logo.png' alt="myportfolio" className = 'my-logo' />
                 <p className= 'title'>Decaitor</p>
             </div>
             <div className = 'route-links'>

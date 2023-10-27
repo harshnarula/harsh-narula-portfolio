@@ -8,6 +8,7 @@
       height: auto; /* This maintains the aspect ratio */
       max-width: 100%; /* Makes the logo responsive */
       padding: 2x;
+      border-radius: 50px;
     /* padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px; */
