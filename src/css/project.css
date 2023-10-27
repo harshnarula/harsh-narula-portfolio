@@ -180,6 +180,14 @@
       width: 35px;
       font-size: 9px;
     }
+
+    .project-source{
+      margin-top: 5px;
+    }
+
+    .source{
+      font-size: 10px;
+    }
       
   }
 
