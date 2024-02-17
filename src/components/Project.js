@@ -18,8 +18,16 @@ export default function Project({  projects, setProjects, width, setWidth }) {
         name: 'Video Chat Applicaton',
         description: 'This is an application where we can coumminicate with other persons virtually through a video call and also can cchat with them',
         domain: 'Web Development',
-        tech: ['React', 'MySql'],
+        tech: ['React.js', 'MySql'],
         source: 'https://github.com/harshnarula/video-chat-application'
+      },
+      {
+        img: '/images/logo(2).png',
+        name: 'Weather Application',
+        description: 'An application that showcase the weather forecast in the user"s region ',
+        domain: 'Web Development',
+        tech: ['React.js'],
+        source: 'https://github.com/harshnarula/weather-app/tree/master'
       },
     ];
 

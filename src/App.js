@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Project from './components/Project';
 import Social from './components/Social';
 import Contact from './components/Contact';
+import Tab from './components/Tab';
 import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
@@ -32,6 +33,7 @@ function App() {
 
   return (
     <>
+    <Tab/>
     <Router>
       <div>
         <Navbar />
