@@ -6,6 +6,22 @@ export default function Project({  projects, setProjects, width, setWidth }) {
   const updateProjectDetails = () => {
     const updatedDetails = [
       {
+        img: '/images/Untitled.jpg',
+        name: 'ShopY',
+        description: ' Your ultimate destination for cutting-edge e-gadgets. Explore, compare, and purchase the latest tech innovations with ease and convenience.',
+        domain: 'Web Development',
+        tech: ['MERN'],
+        source: 'https://github.com/harshnarula/shopy-frontend'
+      },
+      {
+        img: '/images/logo(2).png',
+        name: 'Weather Application',
+        description: 'An application that showcase the weather forecast in the user"s region ',
+        domain: 'Web Development',
+        tech: ['React.js'],
+        source: 'https://github.com/harshnarula/weather-app/tree/master'
+      },
+      {
         img: '/images/ASHKlogo.png',
         name: 'ASHK',
         description: 'Developed a website named ASHK which is used for managing user-specific data based on traveling',
@@ -21,14 +37,7 @@ export default function Project({  projects, setProjects, width, setWidth }) {
         tech: ['React.js', 'MySql'],
         source: 'https://github.com/harshnarula/video-chat-application'
       },
-      {
-        img: '/images/logo(2).png',
-        name: 'Weather Application',
-        description: 'An application that showcase the weather forecast in the user"s region ',
-        domain: 'Web Development',
-        tech: ['React.js'],
-        source: 'https://github.com/harshnarula/weather-app/tree/master'
-      },
+      
     ];
 
     // Update the 'projects' state with the updated details
