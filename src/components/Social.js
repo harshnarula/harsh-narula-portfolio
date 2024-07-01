@@ -85,7 +85,7 @@ export default function Social({
                     </div>
                     <div className = 'link-box-02' onClick={handleLinkedIn} id = 'link-box-02'>
 
-                        {social.linkedIn === true ? <a className = 'linked-in'  href= "https://www.linkedin.com/in/harsh-narula-9ab9a6253" target="_blank" rel="noopener noreferrer" >Harsh Narula</a> : <p className = 'linked-in'>LinkedIn</p>}
+                        {social.linkedIn === true ? <a className = 'linked-in'  href= "https://www.linkedin.com/in/harsh-narula-597b95314/" target="_blank" rel="noopener noreferrer" >Harsh Narula</a> : <p className = 'linked-in'>LinkedIn</p>}
                     </div>
                     
                 </div>
